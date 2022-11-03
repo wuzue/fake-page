@@ -1,0 +1,65 @@
+*{
+  /* border: 1px solid red; */
+}
+
+.top-main-div{
+  background-color: #1d1f21;
+}
+
+.top-container{
+  margin: 0 auto;
+  margin-top: 2rem;
+  width: 80%;
+  
+}
+
+.top-logo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.svg-logo{
+  max-width: 100px;
+  width: 100%;
+  height: auto;
+  margin-bottom: -1.8rem;
+}
+
+.logo-text{
+  font-family: 'Open Sans';
+  text-transform: lowercase;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 2rem;
+  color: whitesmoke;
+}
+
+.digital-text{
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.top-body{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.tls-first{
+  width: 100%;
+  font-size: 4.5rem;
+  font-weight: bold;
+  color: #f16268;
+}
+
+.tls-second{
+  width: 100%;
+  color: whitesmoke;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
