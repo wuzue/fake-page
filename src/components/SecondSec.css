@@ -14,20 +14,23 @@
 .second-section-card{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
 }
 
 .card{
-  border-radius: 10px;
-  box-shadow: 0 3px 13px 0 rgb(0 0 0 / 27%);
-  background-color: #fff;
+  display: flex;
 }
 
-.text{
+.paris{
+  display: flex;
+  flex-direction: column;
   color: #1d1f21;
-  text-align: center;
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  background-color: #fff;
+  margin-top: -10px;
+  padding: 8px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .second-section-card img {
@@ -40,5 +43,11 @@
 @media screen and (max-width:940px){
   .second-main-div{
     padding-top: 2px;
+  }
+  .second-section-card{
+    flex-direction: column;
+  }
+  .card{
+    flex-direction: column;
   }
 }
