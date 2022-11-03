@@ -1,10 +1,10 @@
 import './App.css';
-import Top from './components/Top';
+import FirstSec from './components/FirstSec';
 
 function App() {
   return (
     <div className="App">
-      <Top/> 
+      <FirstSec/> 
     </div>
   );
 }
