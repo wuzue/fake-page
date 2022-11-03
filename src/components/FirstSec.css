@@ -5,6 +5,7 @@
 
 .top-main-div{
   background-color: #1d1f21;
+  padding-bottom: 102px;
 }
 
 .top-container{
@@ -102,6 +103,9 @@
 @media screen and (max-width:940px){
   .top-body{
     grid-template-columns: 1fr;
+  }
+  .top-main-div{
+    padding-bottom: 5px;
   }
   .btn-top{
     margin: auto;
