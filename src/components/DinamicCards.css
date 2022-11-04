@@ -1,0 +1,17 @@
+.d-cards {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.main-d-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.photo {
+  width: 200px;
+  height: auto;
+  flex: 1;
+  margin-left: 2rem;
+}
