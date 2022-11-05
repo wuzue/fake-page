@@ -14,28 +14,28 @@ const FourthSec = () => {
         <div className='card-lugar'>
           <img src={paris} loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 28vw, (max-width: 991px) 30vw, 300px" alt="" class="image-fourth"/>
           <div className='card-lugar-footer'>
-            <p className='paragraph-4'>Rio de Janeiro</p>
+            <p className='paragraph-4'>Curiosidades sobre RJ</p>
           </div>
         </div>
 
         <div className='card-lugar'>
           <img src={moscow} loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 28vw, (max-width: 991px) 30vw, 300px" alt="" class="image-fourth"/>
           <div className='card-lugar-footer'>
-            <p className='paragraph-4'>Rio de Janeiro</p>
+            <p className='paragraph-4'>Curiosidades sobre SP</p>
           </div>
         </div>
 
         <div className='card-lugar'>
           <img src={losAngeles} loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 28vw, (max-width: 991px) 30vw, 300px" alt="" class="image-fourth"/>
           <div className='card-lugar-footer'>
-            <p className='paragraph-4'>Rio de Janeiro</p>
+            <p className='paragraph-4'>Curiosidades sobre MG</p>
           </div>
         </div>
 
         <div className='card-lugar'>
           <img src={losAngeles} loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 28vw, (max-width: 991px) 30vw, 300px" alt="" class="image-fourth"/>
           <div className='card-lugar-footer'>
-            <p className='paragraph-4'>Rio de Janeiro</p>
+            <p className='paragraph-4'>Curiosidades sobre ES</p>
           </div>
         </div>
 
