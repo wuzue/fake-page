@@ -1,0 +1,29 @@
+.d-cards {
+  font-family: sans-serif;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border: 1px solid red;
+}
+
+.main-d-cards{
+  border: 1px solid red;
+}
+.d-cards{
+  /* border: 1px solid greenyellow; */
+  position: sticky;
+  border: 1px solid red;
+}
+.text-d-cards{
+  border: 1px solid red;
+}
+.card-display{
+  /* position: absolute; */
+  border: 1px solid red;
+}
+
+.card {
+  position:relative;
+    max-width: 500px;
+    width: 100%;
+}

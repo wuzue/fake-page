@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import PlacesCards from './PlacesCards'
 import './SecondSec.css'
-import DinamicCards from './DinamicCards';
+import DynamicCards from './DynamicCards';
 
 
 
@@ -9,7 +9,6 @@ const SecondSec = () => {
   return(
     <div className='second-main-div'>
       <p className='textone-second-sec'>Para onde você gostaria de viajar?</p>
-      <a href='#img-paris'>Click me</a>
       <div className='second-section-card'>
         <PlacesCards/>
       </div>
@@ -19,7 +18,7 @@ const SecondSec = () => {
         receitas passivas e ativas, conquistando as tão sonhadas:</p>
       </div>
       <div className='dinamic-part'>
-        <DinamicCards/>
+        <DynamicCards/>
       </div>
     </div> 
   )
