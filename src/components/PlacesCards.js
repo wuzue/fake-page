@@ -8,7 +8,8 @@ const PlacesCards = () => {
   return (
     <div class="container">
 
-<div class="travel-card"><img src={paris} loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 28vw, (max-width: 991px) 30vw, 300px" alt="" class="image"/>
+<div class="travel-card">
+  <img src={paris} loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 28vw, (max-width: 991px) 30vw, 300px" alt="" class="image"/>
 <div class="travel-card-footer">
   <p class="paragraph-2">Paris, França</p>
 </div>
