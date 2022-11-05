@@ -45,7 +45,7 @@ const DynamicCards = () => {
           </div>
             <div className="main-d-cards">
               <div className="text-d-cards">
-                <h1 onClick={() => setToggle(key)}>{title} </h1>
+                <h1 className='title-cards' onClick={() => setToggle(key)}>{title} </h1>
                 {toggle === key ? (
                     <p className='texto'>{text}</p>
                 ) : null}

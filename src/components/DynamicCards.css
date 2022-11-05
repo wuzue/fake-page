@@ -14,12 +14,28 @@
   position: sticky;
   /* border: 1px solid red; */
 }
-.text-d-cards{
+.texto{
   /* border: 1px solid red; */
+  background-color: white;
+  color: #1f1d21;
+  border-radius: 14px 14px;
+  width: 40%;
+  margin-top: 2rem;
+  border-top: 10rem;
+  margin: auto;
+}
+.titulo:active{
+  color: red;background-color: red;
 }
 .card-display{
   /* position: absolute; */
+    opacity: 1;
+    transition: opacity 300ms ease 0s;
   /* border: 1px solid red; */
+}
+
+.title-cards:hover{
+  cursor: pointer;
 }
 
 .card {
@@ -29,4 +45,5 @@
     max-width: 700px;
     max-height: 540px;
     border-radius: 14px 14px;
+    
 }
