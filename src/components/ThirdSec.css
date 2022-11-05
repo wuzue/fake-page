@@ -1,7 +1,47 @@
+.third-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 auto;
+  margin-top: 4rem;
+  width: 83%;
+  justify-items: center;
+  align-items: center;
+}
+
+*{
+  border: 1px solid red;
+}
+
+.third-left-side{
+  text-align: center;
+}
+
+.third-right-side{
+  /* margin: 0; */
+  width: 100%;
+  height: 85%;
+}
+
 .titulo-para-quem{
   font-size: 3rem;
+  width: 80%;
+  line-height: 3.5rem;
+  font-weight: bold;
+  color: #f16268;
 }
 
 .para-quem-1, .para-quem-2{
-  font-size: 2rem;
+  color: white;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: -1rem;
+  line-height: 2.5rem;
+  width: 90%;
+}
+
+.para-quem-iframe{
+  width: 100%;
+  height: 100%;
+  border-radius: 14px 14px;
 }
