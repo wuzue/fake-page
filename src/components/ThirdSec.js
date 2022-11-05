@@ -9,7 +9,7 @@ const ThirdSec = () => {
           <p className='titulo-para-quem'>Para quem é<br></br> o Nômade Digital?</p>
           <p className='para-quem-1'>Pessoas que não aguentam mais o 40-40-40:<br></br>
           Trabalhar durante 40 anos, trabalhar 40 horas toda semana e se aposentar com valor de apenas 40%,
-          e quer se ver livre da corrida dos ratos.</p>
+          e quer se ver livre da corrida dos ratos.</p><br></br>
           <p className='para-quem-2'>CLT, estudante, concursado, dono de qualquer negócio... Não importa
           , no Nômade Digital você vai aprender tudo que precisa para ter a verdade liberdade.</p>
         </div>

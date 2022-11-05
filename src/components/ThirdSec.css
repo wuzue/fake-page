@@ -3,23 +3,27 @@
   grid-template-columns: repeat(2, 1fr);
   margin: 0 auto;
   margin-top: 4rem;
-  width: 83%;
+  width: 85%;
   justify-items: center;
   align-items: center;
 }
 
 *{
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .third-left-side{
   text-align: center;
+  margin: auto;
 }
 
 .third-right-side{
-  /* margin: 0; */
+  /* margin: ; */
   width: 100%;
-  height: 85%;
+  height: 90%;
+}
+.third-left-side p {
+  
 }
 
 .titulo-para-quem{
@@ -28,6 +32,7 @@
   line-height: 3.5rem;
   font-weight: bold;
   color: #f16268;
+  margin: 2rem auto;
 }
 
 .para-quem-1, .para-quem-2{
@@ -38,10 +43,25 @@
   margin-top: -1rem;
   line-height: 2.5rem;
   width: 90%;
+  margin: auto;
 }
 
 .para-quem-iframe{
   width: 100%;
   height: 100%;
   border-radius: 14px 14px;
+}
+
+@media screen and (max-width:940px){
+  .third-container{
+    grid-template-columns: 1fr;
+    width: 90%;
+    margin: 0 auto;
+    
+  }
+
+  .para-quem-iframe{
+    width: 100%;
+    height: 250px;
+  }
 }
