@@ -16,6 +16,74 @@
   margin: auto;
 }
 
+.fifth-container-two{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.fifth-plane{
+  max-width: 100px;
+  width: 100%;
+}
+
+.logo-fifth{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10rem;
+}
+
+.svg-logo-fifth{
+  max-width: 100px;
+  width: 100%;
+  height: auto;
+  margin-bottom: -1.8rem;
+}
+
+.logo-text-fifth{
+  text-transform: lowercase;
+  text-align: center;
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 2rem;
+  color: whitesmoke;
+}
+
+.digital-text-fifth{
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  letter-spacing: .3rem;
+  font-weight: 500;
+}
+
+.fifth-mid{
+  margin: auto;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.comece-hoje{
+  /* font-size: 2rem; */
+  text-transform: uppercase;
+  margin-bottom:3.5rem;
+}
+
+.desconto{
+  font-size: 1.9rem;
+}
+
+.desconto .off{
+  text-decoration: line-through;
+  font-style: normal;
+}
+
+.preco-parcelado{
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 600;
+}
+
 .fifth-left-side{
   margin: auto;
   text-align: center;
