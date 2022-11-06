@@ -1,10 +1,52 @@
 .fifth-div{
   padding-top: 4rem;
+  padding-bottom: 4rem;
   background-color: #1d1f21;
   color: white;
 }
 
+/* *{border: 1px solid red;} */
+
 .fifth-container{
-background-color: #1d1f21;
-color: white;
+  background-color: #1d1f21;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 80%;
+  margin: auto;
+}
+
+.fifth-left-side{
+  margin: auto;
+  text-align: center;
+}
+
+.fifth-title{
+  font-size: 3rem;
+  font-weight: 600;
+  /* width: 100%; */
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.fifth-text{
+  font-size: 1.5rem;
+  font-weight: 500;
+  /* width: 80%; */
+  margin: 1.5rem auto;
+}
+
+.fifth-img{
+  max-width: 1024px;
+  width: 100%;
+}
+
+@media screen and (max-width:940px){
+  .fifth-container{
+    grid-template-columns: 1fr;
+    width: 90%;
+  }
+  .fifth-img{
+    margin-top: 2rem;
+  }
 }
