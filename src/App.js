@@ -1,4 +1,5 @@
 import './App.css';
+import FifthSec from './components/FifthSec';
 import FirstSec from './components/FirstSec';
 import FourthSec from './components/FourthSec';
 import SecondSec from './components/SecondSec';
@@ -11,6 +12,7 @@ function App() {
       <SecondSec/>
       <ThirdSec/>
       <FourthSec/>
+      <FifthSec/>
     </div>
   );
 }

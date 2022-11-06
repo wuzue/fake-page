@@ -3,45 +3,18 @@ import './FourthSec.css'
 import paris from '../assets/imgs/paris.png'
 import moscow from '../assets/imgs/moscow.png'
 import losAngeles from '../assets/imgs/losangeles.jpg'
+import DynamicCards from './DynamicCards'
+import PlacesCards from './PlacesCards'
+import FourthPlacesCards from './FourthPlacesCards'
 
 const FourthSec = () => {
   return (
-    <div className='fourth-div'>
-       <p className='mais-lugares'>Mais lugares para conhecer</p>
-      <div className='fourth-container'>
-        <div className='mais-lugares-container'>
-        
-        <div className='card-lugar'>
-          <img src={paris} loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 28vw, (max-width: 991px) 30vw, 300px" alt="" class="image-fourth"/>
-          <div className='card-lugar-footer'>
-            <p className='paragraph-4'>Curiosidades sobre RJ</p>
-          </div>
-        </div>
-
-        <div className='card-lugar'>
-          <img src={moscow} loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 28vw, (max-width: 991px) 30vw, 300px" alt="" class="image-fourth"/>
-          <div className='card-lugar-footer'>
-            <p className='paragraph-4'>Curiosidades sobre SP</p>
-          </div>
-        </div>
-
-        <div className='card-lugar'>
-          <img src={losAngeles} loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 28vw, (max-width: 991px) 30vw, 300px" alt="" class="image-fourth"/>
-          <div className='card-lugar-footer'>
-            <p className='paragraph-4'>Curiosidades sobre MG</p>
-          </div>
-        </div>
-
-        <div className='card-lugar'>
-          <img src={losAngeles} loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 28vw, (max-width: 991px) 30vw, 300px" alt="" class="image-fourth"/>
-          <div className='card-lugar-footer'>
-            <p className='paragraph-4'>Curiosidades sobre ES</p>
-          </div>
-        </div>
-
-        </div>
+    <div className='fourth-main-div'>
+      <p className='textone-fourth-sec'>Mais lugares para conhecer!</p>
+      <div className='fourth-section-card'>
+        <FourthPlacesCards/>
       </div>
-    </div>
+    </div> 
   )
 }
 
