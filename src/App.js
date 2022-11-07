@@ -3,6 +3,7 @@ import FifthSec from './components/FifthSec';
 import FirstSec from './components/FirstSec';
 import FourthSec from './components/FourthSec';
 import SecondSec from './components/SecondSec';
+import SixthSec from './components/SixthSec';
 import ThirdSec from './components/ThirdSec';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <ThirdSec/>
       <FourthSec/>
       <FifthSec/>
+      <SixthSec/>
     </div>
   );
 }

@@ -1,0 +1,74 @@
+.sixth-main-div{
+  color: #1d1f21;
+  background-color: white;
+}
+
+.sixth-div{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 90%;
+  margin: auto;
+  padding-top: 3rem;
+}
+
+/* *{border: 1px solid red;} */
+
+.sixth-img-right {
+  max-width: 540px;
+  width: 100%;
+}
+
+.sixth-img-right-mobile{
+  display: none;
+  max-width: 400px;
+  width: 100%;
+}
+ 
+.sixth-left-side{
+  font-size: 2rem;
+  text-align: left;
+  /* line-height: 3.5rem; */
+}
+
+.sixth-left-side p:not(:last-child) { 
+    margin-bottom: 4rem;  
+ }
+
+.sixth-right-side{
+  text-align: center;
+}
+
+.quem-sou-eu{
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.sub-titulo-sixth{
+  font-weight: 600;
+  width: 70%;
+  text-align: center;
+  margin:auto;
+  padding-top: -2rem;
+}
+
+.especialista{
+  font-style: normal;
+  font-weight: 600;
+}
+
+@media screen and (max-width:940px){
+  .sixth-div{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .sixth-img-right-mobile{
+    display: flex;
+  }
+  .sixth-img-right{
+    display: none;
+  }
+  .sixth-left-side{
+    text-align: center;
+  }
+}
