@@ -57,6 +57,18 @@
   font-weight: 600;
 }
 
+.faq-section{
+  width: 70%;
+  margin: auto;
+  padding-top: 3.5rem;
+}
+
+.faq-section .title-faq{
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+}
+
 @media screen and (max-width:940px){
   .sixth-div{
     display: flex;

@@ -2,6 +2,7 @@ import React from 'react';
 import './SixthSec.css';
 import aboutMe from '../assets/imgs/businessman.png'
 import aboutMeMobile from '../assets/imgs/aboutme.svg'
+import Faq from './Faq.js';
 
 const SixthSec = () => {
   return (
@@ -19,6 +20,10 @@ const SixthSec = () => {
           <img className='sixth-img-right' src={aboutMe} />
           <img className='sixth-img-right-mobile' src={aboutMeMobile}/>
         </div>
+      </div>
+      <div className='faq-section'>
+        <p className='title-faq'>Dúvidas Frequentes</p>
+       <Faq/>
       </div>
     </div>
   )
