@@ -79,14 +79,23 @@
 }
 
 .preco-parcelado{
-  font-size: 3rem;
+  font-size: 4rem;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
+}
+
+.twenty-off{
+  font-style: normal;
+  font-weight: bold;
 }
 
 .fifth-left-side{
   margin: auto;
   text-align: center;
+}
+
+.check-icon{
+  vertical-align: middle;
 }
 
 .fifth-title{
@@ -104,6 +113,31 @@
   margin: 1.5rem auto;
 }
 
+.quero-me-inscrever{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border-radius: 14px 14px;
+  padding: 1rem;
+  width: 14rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #1d1f21;
+  background-color: orange;
+}
+.quero-me-inscrever:hover{
+  cursor: pointer;
+}
+
+.inscrevendo-agora{
+  font-weight: bold;
+  font-size: 2.2rem;
+}
+
+.ul-lista{
+  text-align: left;
+  list-style-type: none;
+}
+
 .fifth-img{
   max-width: 1024px;
   width: 100%;
@@ -114,7 +148,21 @@
     grid-template-columns: 1fr;
     width: 90%;
   }
+  .logo-fifth{
+    margin-top: -4rem;
+  }
   .fifth-img{
     margin-top: 2rem;
   }
+  .inscrevendo-agora{
+    width: 90%;
+    margin: 1rem auto;
+    font-size: 2rem;
+  }
+  .ul-lista{
+    font-size: 1.5rem;
+  }
+  li:not(:last-child) { 
+    margin-bottom: 1rem;  
+ }
 }
