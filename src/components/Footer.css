@@ -31,3 +31,9 @@
 .link a:hover{
   cursor: pointer;
 }
+
+@media screen and (max-width:940px){
+  .footer-main-div{
+    grid-template-columns: 1fr;
+  }
+}
