@@ -9,7 +9,7 @@ import Typography from '@mui/material/Typography';
 const Accordion = styled((props) => (
   <MuiAccordion disableGutters elevation={0} square {...props} />
 ))(({ theme }) => ({
-  border: `1px solid ${theme.palette.divider}`,
+  border: `0px solid ${theme.palette.divider}`,
   '&:not(:last-child)': {
     borderBottom: 0,
   },
@@ -20,7 +20,7 @@ const Accordion = styled((props) => (
 
 const AccordionSummary = styled((props) => (
   <MuiAccordionSummary
-    expandIcon={<ArrowForwardIosSharpIcon sx={{ fontSize: '0.9rem' }} />}
+    expandIcon={<ArrowForwardIosSharpIcon sx={{ fontSize: '1rem' }} />}
     {...props}
   />
 ))(({ theme }) => ({
@@ -36,6 +36,8 @@ const AccordionSummary = styled((props) => (
     marginLeft: theme.spacing(1),
   },
 }));
+
+
 
 const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
   padding: theme.spacing(2),
@@ -53,30 +55,30 @@ export default function CustomizedAccordions() {
     <div>
       <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
-          <Typography>O treinamento Nômade Digital funciona para qualquer pessoa?</Typography>
+          <Typography sx={{fontSize: '2rem'}}>O treinamento Nômade Digital funciona para qualquer pessoa?</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography sx={{fontSize: '1.5rem'}}>
           SIM! O curso Nômade Digital funciona para qualquer pessoa, você só precisa se dedicar e colocar em prática todos os ensinamentos dele
           </Typography>
         </AccordionDetails>
       </Accordion>
       <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
         <AccordionSummary aria-controls="panel2d-content" id="panel2d-header">
-          <Typography>Preciso viajar para fazer parte do treinamento?</Typography>
+          <Typography sx={{fontSize: '2rem'}}>Preciso viajar para fazer parte do treinamento?</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography sx={{fontSize: '1.5rem'}}>
           NÃO! Viajar é totalmente opcional. 80% do treinamento é sobre geração de $$$ pela internet
           </Typography>
         </AccordionDetails>
       </Accordion>
       <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
         <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
-          <Typography>E se eu não tiver tempo para fazer o treinamento?</Typography>
+          <Typography sx={{fontSize: '2rem'}}>E se eu não tiver tempo para fazer o treinamento?</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography sx={{fontSize: '1.5rem'}}>
           As aulas são 100% online e você pode fazer o treinamento no seu próprio ritmo e dentro das suas possibilidades e você terá acesso à área de membros durante 2 anos.
           </Typography>
         </AccordionDetails>

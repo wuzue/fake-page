@@ -25,6 +25,7 @@ const SixthSec = () => {
         <p className='title-faq'>Dúvidas Frequentes</p>
        <Faq/>
       </div>
+      <button className='quero-me-inscrever btn-faq'>Inscreva-se agora</button>
     </div>
   )
 }
