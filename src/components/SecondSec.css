@@ -5,8 +5,8 @@
 .second-main-div{
   color: white;
   background-image: linear-gradient(13deg,#43caf4,#108dea 38%);
-  padding-bottom: 102px;
-  padding-top:50px;
+  padding-bottom: 3rem;
+  padding-top:4rem;
   text-align: center;
 }
 
@@ -63,6 +63,21 @@
   margin-top: 5rem;
   /* margin-left: auto; */
   /* margin-right: auto; */
+  display: none;
+}
+
+.tl-titulo{
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.tl-texto{
+  font-size: 1.5rem;
+}
+
+.icon-second{
+  vertical-align: middle;
 }
 
 @media screen and (max-width:940px){
