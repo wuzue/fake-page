@@ -1,0 +1,33 @@
+.footer-main-div{
+  color: white;
+  background-color: #1d1f21;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 70%;
+  margin: auto;
+}
+
+.footer-main-div p{
+  text-align: center;
+}
+
+/* *{border: 1px solid red;} */
+
+.footer-text{
+  font-size: 1.5rem;
+}
+
+.footer-right, .footer-left, .footer-middle{
+  margin: auto;
+}
+
+.link a{
+  text-decoration: none;
+  color: white;
+}
+
+.link a:hover{
+  cursor: pointer;
+}

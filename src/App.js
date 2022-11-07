@@ -1,6 +1,7 @@
 import './App.css';
 import FifthSec from './components/FifthSec';
 import FirstSec from './components/FirstSec';
+import Footer from './components/Footer';
 import FourthSec from './components/FourthSec';
 import SecondSec from './components/SecondSec';
 import SixthSec from './components/SixthSec';
@@ -15,6 +16,7 @@ function App() {
       <FourthSec/>
       <FifthSec/>
       <SixthSec/>
+      <Footer/>
     </div>
   );
 }
