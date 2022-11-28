@@ -31,11 +31,11 @@ const FifthSec = () => {
           <button className='quero-me-inscrever'>Quero me inscrever</button>
           <p className='inscrevendo-agora'>Veja o que você recebe se INSCREVENDO AGORA</p>
           <ul className='ul-lista'>
-            <li><FaCheckSquare className='check-icon' style={{color: '#43caf4'}}/> Treinamento completo Nômade Digital com 7 módulos de conteúdo</li>
-            <li><FaCheckSquare className='check-icon' style={{color: '#43caf4'}}/> Bônus Introdução Face Ads com Paulo Berto - R$997</li>
-            <li><FaCheckSquare className='check-icon' style={{color: '#43caf4'}}/> Bônus Copywriting com Luiz Drize - R$500</li>
-            <li><FaCheckSquare className='check-icon' style={{color: '#43caf4'}}/> Bônus SEO com equipe Kobemedia - R$300</li>
-            <li><FaCheckSquare className='check-icon' style={{color: '#43caf4'}}/> Bônus Como Bombar no Tik Tok Com Mustache - R$700</li>
+            <li><FaCheckSquare className='check-icon' style={{color: '#43caf4'}}/> Treinamento completo com 7 módulos de conteúdo</li>
+            <li><FaCheckSquare className='check-icon' style={{color: '#43caf4'}}/> Bônus Introdução Ao ZZZ com John Doe - R$997</li>
+            <li><FaCheckSquare className='check-icon' style={{color: '#43caf4'}}/> Bônus Aprendendo com John Doe - R$500</li>
+            <li><FaCheckSquare className='check-icon' style={{color: '#43caf4'}}/> Bônus MakeMoney com equipe J.Doe - R$300</li>
+            <li><FaCheckSquare className='check-icon' style={{color: '#43caf4'}}/> Bônus Como Bombar nos Negócios Com John Doe - R$700</li>
           </ul>
           <button className='quero-me-inscrever'>Inscreva-se agora</button>
         </div>
